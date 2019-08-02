@@ -625,3 +625,6 @@ truffle(develop)> bassInfo
 개발자는 해당 오피셜 사이트에서 많은 정보를 얻으면서 하는게 최고다.    
 
 https://www.trufflesuite.com/docs/truffle/overview
+
+
+https://remix.ethereum.org <--- 아 이거 엄청 변했는데???? 
