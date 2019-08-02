@@ -20,6 +20,11 @@ https://geth.ethereum.org/downloads/
 현재 버전은 지금 이 README.ms를 작성하는 기준으로[] Download Geth – Lucky Leprechaun (v1.9.1) – Release Notes]으로 1.9.1버전이다.     
 다운로드를 받자.    
 
+설치 완료 이후에 CMD에서 다음과 같이 잘 설치가 되었는지 확인을 해보자.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot1.PNG)    
+
+
 nodeJs를 설치해야하는데 나의 경우에는 nvm를 통한 설치를 더 선호한다. 자세한 설명은 생략한다...이지만     
 무엇보다 nvm를 통한 nodejs설치가 차후 버전을 스위치하기가 편하고 버전별로 설치하는 것도 편하다.    
 
