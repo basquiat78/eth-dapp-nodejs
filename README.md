@@ -1,4 +1,4 @@
-# eht-dapp-nodejs
+# eth-dapp-nodejs
 
 간만에 이더리움 스마트컨트랙트를 이용한 악기 장터를 구현해볼 생각이다.
 
