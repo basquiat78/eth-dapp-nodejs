@@ -119,4 +119,78 @@ $ truffle -version
 ![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot4.PNG)     
 
 
-개발을 위한 모든 설정이 준비가 되었다.    
+## VSCODE solidity Configuration    
+
+VSCODE에서 확장팩을 통해 Solidity를 지원할 수 있게 설정 해 보자.     
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot5.PNG)    
+
+이미지에서 볼수 있듯이 좌측 하단에 보이는 네모 모양의 이모티콘을 누르면 Extensions: Marketplace가 보이고 검색할 수 있게 되어 있다.     
+solidity로 검색하면 여러개의 확장팩이 뜨는데 맨 위 Juan Blanco의 solidity를 인스톨하자.    
+
+설치가 완료되면 확장탭에 설치된 확장팩이 보인다. IDE를 다시 시작하면 된다.    
+
+## Meatmask Installation    
+
+https://metamask.io/    
+
+사이트로 이동하게 되면 가운데 상단 GET CHROME EXTENSION를 클릭하고 크롬 브라우져 확장에 추가한다.    
+
+추가가 완료되면 다음과 같이 작은 이모티콘이 생성된 것을 확인 할 수 있다.    
+이모티콘을 클릭해 보자.    
+아래 이미지를 참조하면 된다.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot6.PNG)    
+
+
+시작하기를 누르면 밑에 그림이 뜬다.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot7.PNG)    
+
+[지갑가져오기]와 [지갑생성하기] 두가지를 볼 수 있는데 최초 가나슈를 띄웠을 때 화면으로 돌아가 보자.    
+
+가나슈 화면을 보면 MNEMONIC (니모닉)이라 해서 여러개의 단어들이 나열되어 있는 것을 볼 수 있다.    
+
+기존에 생성된 것들이 있기 때문에 이 니모닉을 통해서 지갑을 가져올 생각이다.    
+
+[지갑가져오기]를 클릭하면 동의하는 화면으로 넘어간다. 동의하면 아래 그림처럼 화면으로 넘어간다.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot8.PNG)     
+
+비번을 입력하고 생성하자.     
+
+### Ganache 설정 변경    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot9.PNG)   
+
+그림을 보면 메타마스크를 눌렀을 때 상당 중앙에는 메인넷으로 설정되어 있다.    
+
+눌러보면 그림처럼 메타마스크에서 여러 호스트를 설정할 수 있게 되어 있는데 여기에 맞추기 위해서 가나슈의 설정을 좀 변경해야한다.    
+
+가냐슈를 띄우면 우측 상당에 [톱니모양]의 설정 버튼을 누른다.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot10.PNG)    
+
+메타마스크에서 로컬호스트의 경우 포트를 8545로 쓰기 때문에 가나슈 역시 저 포트로 설정해 보자.    
+
+그러면 다음처럼 100이더가 내 계정에 있다는 것을 확인할 수 있다.    
+
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot11.PNG)    
+
+
+확인해 보면 알겠지만 가나슈 띄울 때 생성한 10개의 계정중 첫 번째 계정과 동일하다는 것을 알 수 있다.    
+
+메타 마스크는 계정을 계속 생성할 수 있기 때문에 다음 이미지를 참조해 보자.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot12.PNG)    
+
+메타마스크를 누르면 상당에 알록달록한 동그라미가 있는데 누르면 위 그림처럼 뜨는 것을 볼 수 있다.    
+
+이 때 계정 생성을 하게 되면 새로운 주소를 발급받는데 이전에 니모닉으로 메타마스크에 계정 생성을 시도 했기 때문에 생성할 때마다 가나슈에 있는 주소들로 하나씩 생성하게 된다.    
+
+나는 10개를 죄다 생성했다.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot13.PNG)   
+
+근데 11개째부터는 가나슈에서 생성한 주소가 아니기 때문에 이더도 0이다. 일단 여기까지 완료하게 되면 기본적인 개발 환경 세팅은 끝났다.
