@@ -72,6 +72,8 @@ geth --networkid 1978 --mine --minerthreads 1 --datadir "./" --nodiscover --rpc 
 
 그리고 생성한 mybatch파일안에 다음 내용을 넣고 저장하자.
 
+추가 -> 잊고 지나갔는데 밑에 커맨드의 --unlock이후 들어가는 주소는 당연히 저 주소로 하면 안되고 본인이 진행하면서 최초 생성했던 coinbase 주소를 넣도록 하자.....    
+
 ```
 geth --networkid 1978 --mine --minerthreads 1 --datadir "./" --nodiscover --rpc --rpcport "8545" --rpccorsdomain "*" --nat "any" --rpcapi eth,web3,personal,net --unlock "0x767b5b866a93E1857DefBad95927DF79d3b0b92E" --password "./mypassword.txt" --allow-insecure-unlock
 
