@@ -5,3 +5,9 @@
 기억을 더듬으면서 가나쉬+튜플프레임워크랑 연계해서..
 
 커밍쑨~~~
+
+## Prerequisites
+
+os: window 10
+ide: vscode version 1.36.1
+git version 2.21.0
