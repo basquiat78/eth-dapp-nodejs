@@ -177,7 +177,12 @@ $ eth.sendTransaction({from:eth.coinbase, to:eth.accounts[1], value:web3.toWei(1
 
 
 ![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-2/capture/shot9.PNG)    
-
+ 
+ 7. 종료
+ ```
+$ exit
+ ```
+종료
 
 여기까지 다 하게 되었다면 기본적으로 할 수 있는 것은 다 하게 되었다.     
 
