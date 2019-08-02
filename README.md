@@ -21,7 +21,7 @@ $ cd basquiat-blockchain
 
 ```
 
-![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot1.png)     
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot1.PNG)      
 
 이미지처럼    
 ```
