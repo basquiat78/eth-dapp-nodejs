@@ -59,3 +59,21 @@ https://medium.com/@piyopiyo/list-of-ethereums-major-network-and-chain-ids-2bc58
 
 ![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot3.PNG)     
 
+
+자 이제는 Genesis Block을 생성할 차례이다.
+
+위에서 만든 폴더로 들어가자...
+
+```    
+geth --datadir . init basquiat.json
+```    
+
+그리고 위 명령어를 실행하자.. basquiat.json은 위 과정에서 생성된 정보이다.  
+
+완료가 되면 아래 그림처럼 로그를 띄운다.     
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot4.PNG)     
+
+성공했다면 해당 폴더를 보면 이미지처럼 geth와 keystore 폴더가 생성된 것을 볼 수 있다.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot5.PNG)
