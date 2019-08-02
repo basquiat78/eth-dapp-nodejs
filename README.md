@@ -2,17 +2,17 @@
 
 간만에 이더리움 스마트컨트랙트를 이용한 악기 장터를 구현해볼 생각이다.
 
-기억을 더듬으면서 가나쉬+튜플프레임워크랑 연계해서..
+기억을 더듬으면서 가나쉬+트러플프레임워크랑 연계해서..
 
 커밍쑨~~~
 
-## Prerequisites
+# Prerequisites
 
 os: window 10    
 ide: vscode version 1.36.1    
 git version 2.21.0    
-nodejs
 
+# Etheream Installation    
 이더리움을 이용한 스마트컨트랙트를 구현하기 위해서는 이더리움 게스를 설치해야한다.    
 
 https://geth.ethereum.org/downloads/    
@@ -25,6 +25,7 @@ https://geth.ethereum.org/downloads/
 ![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot1.PNG)    
 
 
+## NodeJs Installation    
 nodeJs를 설치해야하는데 나의 경우에는 nvm를 통한 설치를 더 선호한다. 자세한 설명은 생략한다...이지만     
 무엇보다 nvm를 통한 nodejs설치가 차후 버전을 스위치하기가 편하고 버전별로 설치하는 것도 편하다.    
 
@@ -67,4 +68,24 @@ $ npm -v
 ```
 
 6.9.0이라고 뜨면 세팅 완료    
+
+
+## Ganache Installation    
+
+그 다음에는 가나슈를 설치해야한다.    
+
+https://www.trufflesuite.com/ganache      
+
+다음 사이트로 이동하자. 보니 버전이 당시에 처음 접했을 때보다 높아졌다.    
+
+일단 window버전으로 다운로드 받으면 현 기준으로 Ganache-2.1.0.appx를 받게 된다.    
+설치하게 되면 맨 처음 화면에서 Aynaltic어쩌구 저쩌구가 되는데 그냥 Continue를 누르게 되면 다음과 같은 화면을 만나게 된다.    
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot2.PNG)    
+
+그냥 QUICKSTART버튼을 누르자.     
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot3.PNG)    
+
+다음과 같은 화면이 등장한다.    
 
