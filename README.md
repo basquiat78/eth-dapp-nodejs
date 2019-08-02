@@ -116,7 +116,7 @@ $ npm install -g truffle
 $ truffle -version
 ```
 
-![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot3.PNG)     
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot4.PNG)     
 
 
 개발을 위한 모든 설정이 준비가 되었다.    
