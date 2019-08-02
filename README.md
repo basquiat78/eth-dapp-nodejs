@@ -627,4 +627,10 @@ truffle(develop)> bassInfo
 https://www.trufflesuite.com/docs/truffle/overview
 
 
-https://remix.ethereum.org <--- 아 이거 엄청 변했는데???? 
+https://remix.ethereum.org <--- 아 이거 엄청 변했는데????   
+
+# Next    
+이 브랜치에 다 할려고 하니 엄청 길어져서 브랜치 따로 땀.     
+가나슈를 깐 이유는 최대한 개발하는데 편하게 하기 위해서이다.     
+
+이번에 한 것은 적어도 내가 만든 스마트컨트랙트가 배포가 되고 제대로 작동하는지 확인차 한것으로 일단 여기까지 잘 왔으면 그것만으로 엄청난 의미를 가지고 있다.    
