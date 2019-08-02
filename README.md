@@ -32,6 +32,8 @@ $ puppeth
 
 여러개를 했는데 아마도 보안문제로 리젝.... 단순하게 나는 basquiat라는 이름으로 네트워크 이름을 지었다.
 
+추가 --> 살펴보니 대문자도 안되는듯 하다...많이 바꼈넹....
+
 그 이후로는 What would you like to do? (default = stats)라는 질문을 던지는데 일단은 프라이빗 네트워크를 위한 제네시스를 생성해야하기에 2를 입력한다.
 
 What would you like to do? (default = create) 질문에는 새로 생성할 것이기 때문에 1을 입력하고 그 이후 합의 엔진 선택이 나오는데 clique는 잘 모르겠다. ㅎㅎㅎㅎㅎ     
