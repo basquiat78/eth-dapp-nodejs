@@ -20,6 +20,8 @@ https://geth.ethereum.org/downloads/
 현재 버전은 지금 이 README.ms를 작성하는 기준으로[] Download Geth – Lucky Leprechaun (v1.9.1) – Release Notes]으로 1.9.1버전이다.     
 다운로드를 받자.    
 
+설치할 때는 Tool도 같이 체크해서 설치해줘야 한다.    
+
 설치 완료 이후에 CMD에서 다음과 같이 잘 설치가 되었는지 확인을 해보자.    
 
 ![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot1.PNG)    
