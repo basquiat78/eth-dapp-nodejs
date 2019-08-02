@@ -102,3 +102,21 @@ https://www.trufflesuite.com/ganache
 
 뭐 그렇다고 한다.    
 
+## Truffle Installation    
+
+```
+$ npm install -g truffle
+```
+
+-g옵션은 글로벌로 설치하겠다는 의미라는 것을 굳이 언급하고 간다.    
+
+설치하고 잘 설치되었는지 확인해 보자.    
+
+```
+$ truffle -version
+```
+
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot3.PNG)     
+
+
+개발을 위한 모든 설정이 준비가 되었다.    
