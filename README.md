@@ -76,4 +76,15 @@ geth --datadir . init basquiat.json
 
 성공했다면 해당 폴더를 보면 이미지처럼 geth와 keystore 폴더가 생성된 것을 볼 수 있다.    
 
-![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot5.PNG)
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot5.PNG)    
+
+
+## Next    
+
+일단 프라이빗 네트워크에서 coinbase를 생성할 예정이다.     
+
+이더리움에 대해서 전부 설명하려면 많이 힘든다. coinbase는 보통 자신의 노드에서 최초로 계정을 생성했을 때 coinbase가 된다.     
+
+이것은 노드가 채굴시 채굴 보상인 이더리움이 들어가는 계정이 되기도 하고 노드에서 명령어로 여러개의 계정을 생성했을 경우 이 coinbase를 변경할 수도 있다.    
+
+어찌 되었든 다음 스텝은 coinbase를 생성하고 여분으로 2,3개의 계정을 생성해 볼 생각이다.
