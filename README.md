@@ -196,3 +196,10 @@ https://metamask.io/
 ![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/master/capture/shot13.PNG)   
 
 근데 11개째부터는 가나슈에서 생성한 주소가 아니기 때문에 이더도 0이다. 일단 여기까지 완료하게 되면 기본적인 개발 환경 세팅은 끝났다.
+
+
+# 진행 완료된 브랜치    
+dapp-step-1, dapp-step-2
+
+# 진행중인 브랜치
+dapp-stpe-3
