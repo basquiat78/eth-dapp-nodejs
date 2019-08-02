@@ -8,6 +8,6 @@
 
 ## Prerequisites
 
-os: window 10
-ide: vscode version 1.36.1
-git version 2.21.0
+os: window 10    
+ide: vscode version 1.36.1    
+git version 2.21.0    
