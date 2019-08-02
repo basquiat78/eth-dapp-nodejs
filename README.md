@@ -38,7 +38,7 @@ What would you like to do? (default = create) 질문에는 새로 생성할 것�
 원래 POW였기 때문에 (부테린이 POS하고 싶어 한다지??) 1. Ethash를 선택한다.
 
 
-![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot2.png)     
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot2.PNG)     
 
 Which accounts should be pre-funded? (advisable at least one) 이 질문에는 그냥 엔터로 패쓰    
 
@@ -55,5 +55,5 @@ https://medium.com/@piyopiyo/list-of-ethereums-major-network-and-chain-ids-2bc58
 
 어째든 위 과정이 끝나면 해당 폴더에 다음과 같은 파일이 생성된다. 이것도 좀 바뀐듯.... 예전에는 json하나만 생성되었는데 처음보는 3개의 파일도 보인다.     
 
-![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot3.png)     
+![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-1/capture/shot3.PNG)     
 
