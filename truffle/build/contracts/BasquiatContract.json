@@ -1,0 +1,1909 @@
+{
+  "contractName": "BasquiatContract",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_bassId",
+          "type": "uint256"
+        },
+        {
+          "name": "_brand",
+          "type": "string"
+        },
+        {
+          "name": "_basstype",
+          "type": "string"
+        },
+        {
+          "name": "_stringno",
+          "type": "uint256"
+        }
+      ],
+      "name": "setBassInfo",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_bassId",
+          "type": "uint256"
+        }
+      ],
+      "name": "getBassInfo",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "string"
+        },
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"_bassId\",\"type\":\"uint256\"}],\"name\":\"getBassInfo\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"},{\"name\":\"\",\"type\":\"string\"},{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"_bassId\",\"type\":\"uint256\"},{\"name\":\"_brand\",\"type\":\"string\"},{\"name\":\"_basstype\",\"type\":\"string\"},{\"name\":\"_stringno\",\"type\":\"uint256\"}],\"name\":\"setBassInfo\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/basquiat-blockchain/truffle/contracts/BasquiatContract.sol\":\"BasquiatContract\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/basquiat-blockchain/truffle/contracts/BasquiatContract.sol\":{\"keccak256\":\"0xd44aabc035a5a71fc8424a16769a8f6ba2262d5f545a50954b0bd80e234c3a63\",\"urls\":[\"bzzr://cf2b8aa481fd8129c33e5fd31ec486a834e99c3c801e0ee32e72a02aea443973\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5061056e806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806312a15f9b1461003b578063c1e5c92714610155575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506102bb565b604051808060200180602001848152602001838103835286818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b50838103825285818151815260200191508051906020019080838360005b838110156101175780820151818401526020810190506100fc565b50505050905090810190601f1680156101445780820380516001836020036101000a031916815260200191505b509550505050505060405180910390f35b6102b96004803603608081101561016b57600080fd5b81019080803590602001909291908035906020019064010000000081111561019257600080fd5b8201836020820111156101a457600080fd5b803590602001918460018302840111640100000000831117156101c657600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192908035906020019064010000000081111561022957600080fd5b82018360208201111561023b57600080fd5b8035906020019184600183028401116401000000008311171561025d57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050919291929080359060200190929190505050610445565b005b606080600080600085815260200190815260200160002060000160008086815260200190815260200160002060010160008087815260200190815260200160002060020154828054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103955780601f1061036a57610100808354040283529160200191610395565b820191906000526020600020905b81548152906001019060200180831161037857829003601f168201915b50505050509250818054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104315780601f1061040657610100808354040283529160200191610431565b820191906000526020600020905b81548152906001019060200180831161041457829003601f168201915b505050505091509250925092509193909250565b600080600086815260200190815260200160002090508381600001908051906020019061047392919061049d565b508281600101908051906020019061048c92919061049d565b508181600201819055505050505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106104de57805160ff191683800117855561050c565b8280016001018555821561050c579182015b8281111561050b5782518255916020019190600101906104f0565b5b509050610519919061051d565b5090565b61053f91905b8082111561053b576000816000905550600101610523565b5090565b9056fea165627a7a72305820dbc4882106d7e1ecf2d1a267114111f7fc5c0512fbebf0cdc1722c0831a956530029",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c806312a15f9b1461003b578063c1e5c92714610155575b600080fd5b6100676004803603602081101561005157600080fd5b81019080803590602001909291905050506102bb565b604051808060200180602001848152602001838103835286818151815260200191508051906020019080838360005b838110156100b1578082015181840152602081019050610096565b50505050905090810190601f1680156100de5780820380516001836020036101000a031916815260200191505b50838103825285818151815260200191508051906020019080838360005b838110156101175780820151818401526020810190506100fc565b50505050905090810190601f1680156101445780820380516001836020036101000a031916815260200191505b509550505050505060405180910390f35b6102b96004803603608081101561016b57600080fd5b81019080803590602001909291908035906020019064010000000081111561019257600080fd5b8201836020820111156101a457600080fd5b803590602001918460018302840111640100000000831117156101c657600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192908035906020019064010000000081111561022957600080fd5b82018360208201111561023b57600080fd5b8035906020019184600183028401116401000000008311171561025d57600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f82011690508083019250505050505050919291929080359060200190929190505050610445565b005b606080600080600085815260200190815260200160002060000160008086815260200190815260200160002060010160008087815260200190815260200160002060020154828054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156103955780601f1061036a57610100808354040283529160200191610395565b820191906000526020600020905b81548152906001019060200180831161037857829003601f168201915b50505050509250818054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156104315780601f1061040657610100808354040283529160200191610431565b820191906000526020600020905b81548152906001019060200180831161041457829003601f168201915b505050505091509250925092509193909250565b600080600086815260200190815260200160002090508381600001908051906020019061047392919061049d565b508281600101908051906020019061048c92919061049d565b508181600201819055505050505050565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106104de57805160ff191683800117855561050c565b8280016001018555821561050c579182015b8281111561050b5782518255916020019190600101906104f0565b5b509050610519919061051d565b5090565b61053f91905b8082111561053b576000816000905550600101610523565b5090565b9056fea165627a7a72305820dbc4882106d7e1ecf2d1a267114111f7fc5c0512fbebf0cdc1722c0831a956530029",
+  "sourceMap": "36:652:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:652:0;;;;;;;",
+  "deployedSourceMap": "36:652:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:652:0;;;;;;;;;;;;;;;;;;;;;;;;483:202;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;483:202:0;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;483:202:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;483:202:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;212:263;;;;;;13:3:-1;8;5:12;2:2;;;30:1;27;20:12;2:2;212:263:0;;;;;;;;;;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;212:263:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;212:263:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;212:263:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;212:263:0;;;;;;;;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;212:263:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;212:263:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;212:263:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;212:263:0;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;483:202;542:13;557;572:4;597:8;:17;606:7;597:17;;;;;;;;;;;:23;;622:8;:17;631:7;622:17;;;;;;;;;;;:26;;650:8;:17;659:7;650:17;;;;;;;;;;;:26;;;589:88;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;483:202;;;;;:::o;212:263::-;328:17;348:8;:17;357:7;348:17;;;;;;;;;;;328:37;;389:6;376:4;:10;;:19;;;;;;;;;;;;:::i;:::-;;422:9;406:4;:13;;:25;;;;;;;;;;;;:::i;:::-;;458:9;442:4;:13;;:25;;;;212:263;;;;;:::o;36:652::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity >=0.4.21 <0.6.0;\r\n\r\ncontract BasquiatContract {\r\n    struct Bass {\r\n        string brand;\r\n        string basstype;\r\n        uint stringno;\r\n    }\r\n\r\n    mapping(uint256 => Bass) bassInfo;\r\n\r\n    function setBassInfo(uint _bassId, string memory _brand, string memory _basstype, uint _stringno) public {\r\n        Bass storage bass = bassInfo[_bassId];\r\n        bass.brand = _brand;\r\n        bass.basstype = _basstype;\r\n        bass.stringno = _stringno;\r\n    }\r\n\r\n    function getBassInfo(uint256 _bassId) public view returns (string memory, string memory, uint) {\r\n        return (bassInfo[_bassId].brand, bassInfo[_bassId].basstype, bassInfo[_bassId].stringno);\r\n    }\r\n}",
+  "sourcePath": "C:/basquiat-blockchain/truffle/contracts/BasquiatContract.sol",
+  "ast": {
+    "absolutePath": "/C/basquiat-blockchain/truffle/contracts/BasquiatContract.sol",
+    "exportedSymbols": {
+      "BasquiatContract": [
+        75
+      ]
+    },
+    "id": 76,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 75,
+        "linearizedBaseContracts": [
+          75
+        ],
+        "name": "BasquiatContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "BasquiatContract.Bass",
+            "id": 8,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "brand",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "92:12:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "92:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "basstype",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "115:15:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "115:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 7,
+                "name": "stringno",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "141:13:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 6,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "141:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Bass",
+            "nodeType": "StructDefinition",
+            "scope": 75,
+            "src": "69:93:0",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 12,
+            "name": "bassInfo",
+            "nodeType": "VariableDeclaration",
+            "scope": 75,
+            "src": "170:33:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+              "typeString": "mapping(uint256 => struct BasquiatContract.Bass)"
+            },
+            "typeName": {
+              "id": 11,
+              "keyType": {
+                "id": 9,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "178:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "170:24:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                "typeString": "mapping(uint256 => struct BasquiatContract.Bass)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 10,
+                "name": "Bass",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 8,
+                "src": "189:4:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                  "typeString": "struct BasquiatContract.Bass"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 47,
+              "nodeType": "Block",
+              "src": "317:158:0",
+              "statements": [
+                {
+                  "assignments": [
+                    24
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 24,
+                      "name": "bass",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 47,
+                      "src": "328:17:0",
+                      "stateVariable": false,
+                      "storageLocation": "storage",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                        "typeString": "struct BasquiatContract.Bass"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 23,
+                        "name": "Bass",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 8,
+                        "src": "328:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 28,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 25,
+                      "name": "bassInfo",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 12,
+                      "src": "348:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                        "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                      }
+                    },
+                    "id": 27,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 26,
+                      "name": "_bassId",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 14,
+                      "src": "357:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "348:17:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Bass_$8_storage",
+                      "typeString": "struct BasquiatContract.Bass storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "328:37:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 33,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 29,
+                        "name": "bass",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24,
+                        "src": "376:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass storage pointer"
+                        }
+                      },
+                      "id": 31,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "brand",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3,
+                      "src": "376:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 32,
+                      "name": "_brand",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16,
+                      "src": "389:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "376:19:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 34,
+                  "nodeType": "ExpressionStatement",
+                  "src": "376:19:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 39,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 35,
+                        "name": "bass",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24,
+                        "src": "406:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass storage pointer"
+                        }
+                      },
+                      "id": 37,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "basstype",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 5,
+                      "src": "406:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 38,
+                      "name": "_basstype",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 18,
+                      "src": "422:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "406:25:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 40,
+                  "nodeType": "ExpressionStatement",
+                  "src": "406:25:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 45,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 41,
+                        "name": "bass",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24,
+                        "src": "442:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass storage pointer"
+                        }
+                      },
+                      "id": 43,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "stringno",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 7,
+                      "src": "442:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 44,
+                      "name": "_stringno",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 20,
+                      "src": "458:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "442:25:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 46,
+                  "nodeType": "ExpressionStatement",
+                  "src": "442:25:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 48,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setBassInfo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14,
+                  "name": "_bassId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "233:12:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "233:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 16,
+                  "name": "_brand",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "247:20:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 15,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "247:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18,
+                  "name": "_basstype",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "269:23:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 17,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "269:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "_stringno",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "294:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "294:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "232:77:0"
+            },
+            "returnParameters": {
+              "id": 22,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "317:0:0"
+            },
+            "scope": 75,
+            "src": "212:263:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 73,
+              "nodeType": "Block",
+              "src": "578:107:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 59,
+                            "name": "bassInfo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 12,
+                            "src": "597:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                              "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                            }
+                          },
+                          "id": 61,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 60,
+                            "name": "_bassId",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 50,
+                            "src": "606:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "597:17:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Bass_$8_storage",
+                            "typeString": "struct BasquiatContract.Bass storage ref"
+                          }
+                        },
+                        "id": 62,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "brand",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3,
+                        "src": "597:23:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 63,
+                            "name": "bassInfo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 12,
+                            "src": "622:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                              "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                            }
+                          },
+                          "id": 65,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 64,
+                            "name": "_bassId",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 50,
+                            "src": "631:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "622:17:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Bass_$8_storage",
+                            "typeString": "struct BasquiatContract.Bass storage ref"
+                          }
+                        },
+                        "id": 66,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "basstype",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 5,
+                        "src": "622:26:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 67,
+                            "name": "bassInfo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 12,
+                            "src": "650:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                              "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                            }
+                          },
+                          "id": 69,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 68,
+                            "name": "_bassId",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 50,
+                            "src": "659:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "650:17:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Bass_$8_storage",
+                            "typeString": "struct BasquiatContract.Bass storage ref"
+                          }
+                        },
+                        "id": 70,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "stringno",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 7,
+                        "src": "650:26:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "id": 71,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "596:81:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_string_storage_$_t_string_storage_$_t_uint256_$",
+                      "typeString": "tuple(string storage ref,string storage ref,uint256)"
+                    }
+                  },
+                  "functionReturnParameters": 58,
+                  "id": 72,
+                  "nodeType": "Return",
+                  "src": "589:88:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 74,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getBassInfo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 50,
+                  "name": "_bassId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "504:15:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 49,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "504:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "503:17:0"
+            },
+            "returnParameters": {
+              "id": 58,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 53,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "542:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 52,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "542:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 55,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "557:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 54,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "557:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 57,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "572:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 56,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "572:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "541:36:0"
+            },
+            "scope": 75,
+            "src": "483:202:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 76,
+        "src": "36:652:0"
+      }
+    ],
+    "src": "0:688:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/basquiat-blockchain/truffle/contracts/BasquiatContract.sol",
+    "exportedSymbols": {
+      "BasquiatContract": [
+        75
+      ]
+    },
+    "id": 76,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".21",
+          "<",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 75,
+        "linearizedBaseContracts": [
+          75
+        ],
+        "name": "BasquiatContract",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "BasquiatContract.Bass",
+            "id": 8,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "brand",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "92:12:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "92:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "basstype",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "115:15:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "115:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 7,
+                "name": "stringno",
+                "nodeType": "VariableDeclaration",
+                "scope": 8,
+                "src": "141:13:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 6,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "141:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Bass",
+            "nodeType": "StructDefinition",
+            "scope": 75,
+            "src": "69:93:0",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 12,
+            "name": "bassInfo",
+            "nodeType": "VariableDeclaration",
+            "scope": 75,
+            "src": "170:33:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+              "typeString": "mapping(uint256 => struct BasquiatContract.Bass)"
+            },
+            "typeName": {
+              "id": 11,
+              "keyType": {
+                "id": 9,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "178:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "170:24:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                "typeString": "mapping(uint256 => struct BasquiatContract.Bass)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 10,
+                "name": "Bass",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 8,
+                "src": "189:4:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                  "typeString": "struct BasquiatContract.Bass"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 47,
+              "nodeType": "Block",
+              "src": "317:158:0",
+              "statements": [
+                {
+                  "assignments": [
+                    24
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 24,
+                      "name": "bass",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 47,
+                      "src": "328:17:0",
+                      "stateVariable": false,
+                      "storageLocation": "storage",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                        "typeString": "struct BasquiatContract.Bass"
+                      },
+                      "typeName": {
+                        "contractScope": null,
+                        "id": 23,
+                        "name": "Bass",
+                        "nodeType": "UserDefinedTypeName",
+                        "referencedDeclaration": 8,
+                        "src": "328:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 28,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "baseExpression": {
+                      "argumentTypes": null,
+                      "id": 25,
+                      "name": "bassInfo",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 12,
+                      "src": "348:8:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                        "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                      }
+                    },
+                    "id": 27,
+                    "indexExpression": {
+                      "argumentTypes": null,
+                      "id": 26,
+                      "name": "_bassId",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 14,
+                      "src": "357:7:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "348:17:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Bass_$8_storage",
+                      "typeString": "struct BasquiatContract.Bass storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "328:37:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 33,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 29,
+                        "name": "bass",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24,
+                        "src": "376:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass storage pointer"
+                        }
+                      },
+                      "id": 31,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "brand",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3,
+                      "src": "376:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 32,
+                      "name": "_brand",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 16,
+                      "src": "389:6:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "376:19:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 34,
+                  "nodeType": "ExpressionStatement",
+                  "src": "376:19:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 39,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 35,
+                        "name": "bass",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24,
+                        "src": "406:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass storage pointer"
+                        }
+                      },
+                      "id": 37,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "basstype",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 5,
+                      "src": "406:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage",
+                        "typeString": "string storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 38,
+                      "name": "_basstype",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 18,
+                      "src": "422:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_memory_ptr",
+                        "typeString": "string memory"
+                      }
+                    },
+                    "src": "406:25:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage",
+                      "typeString": "string storage ref"
+                    }
+                  },
+                  "id": 40,
+                  "nodeType": "ExpressionStatement",
+                  "src": "406:25:0"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 45,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 41,
+                        "name": "bass",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 24,
+                        "src": "442:4:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Bass_$8_storage_ptr",
+                          "typeString": "struct BasquiatContract.Bass storage pointer"
+                        }
+                      },
+                      "id": 43,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "stringno",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 7,
+                      "src": "442:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 44,
+                      "name": "_stringno",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 20,
+                      "src": "458:9:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "442:25:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 46,
+                  "nodeType": "ExpressionStatement",
+                  "src": "442:25:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 48,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setBassInfo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 21,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 14,
+                  "name": "_bassId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "233:12:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 13,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "233:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 16,
+                  "name": "_brand",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "247:20:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 15,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "247:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 18,
+                  "name": "_basstype",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "269:23:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 17,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "269:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 20,
+                  "name": "_stringno",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 48,
+                  "src": "294:14:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 19,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "294:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "232:77:0"
+            },
+            "returnParameters": {
+              "id": 22,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "317:0:0"
+            },
+            "scope": 75,
+            "src": "212:263:0",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 73,
+              "nodeType": "Block",
+              "src": "578:107:0",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "components": [
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 59,
+                            "name": "bassInfo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 12,
+                            "src": "597:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                              "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                            }
+                          },
+                          "id": 61,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 60,
+                            "name": "_bassId",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 50,
+                            "src": "606:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "597:17:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Bass_$8_storage",
+                            "typeString": "struct BasquiatContract.Bass storage ref"
+                          }
+                        },
+                        "id": 62,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "brand",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 3,
+                        "src": "597:23:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 63,
+                            "name": "bassInfo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 12,
+                            "src": "622:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                              "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                            }
+                          },
+                          "id": 65,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 64,
+                            "name": "_bassId",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 50,
+                            "src": "631:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "622:17:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Bass_$8_storage",
+                            "typeString": "struct BasquiatContract.Bass storage ref"
+                          }
+                        },
+                        "id": 66,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "basstype",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 5,
+                        "src": "622:26:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage",
+                          "typeString": "string storage ref"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "expression": {
+                          "argumentTypes": null,
+                          "baseExpression": {
+                            "argumentTypes": null,
+                            "id": 67,
+                            "name": "bassInfo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 12,
+                            "src": "650:8:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Bass_$8_storage_$",
+                              "typeString": "mapping(uint256 => struct BasquiatContract.Bass storage ref)"
+                            }
+                          },
+                          "id": 69,
+                          "indexExpression": {
+                            "argumentTypes": null,
+                            "id": 68,
+                            "name": "_bassId",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 50,
+                            "src": "659:7:0",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "isConstant": false,
+                          "isLValue": true,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "nodeType": "IndexAccess",
+                          "src": "650:17:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_struct$_Bass_$8_storage",
+                            "typeString": "struct BasquiatContract.Bass storage ref"
+                          }
+                        },
+                        "id": 70,
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "stringno",
+                        "nodeType": "MemberAccess",
+                        "referencedDeclaration": 7,
+                        "src": "650:26:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "id": 71,
+                    "isConstant": false,
+                    "isInlineArray": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "TupleExpression",
+                    "src": "596:81:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_string_storage_$_t_string_storage_$_t_uint256_$",
+                      "typeString": "tuple(string storage ref,string storage ref,uint256)"
+                    }
+                  },
+                  "functionReturnParameters": 58,
+                  "id": 72,
+                  "nodeType": "Return",
+                  "src": "589:88:0"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 74,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getBassInfo",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 51,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 50,
+                  "name": "_bassId",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "504:15:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 49,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "504:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "503:17:0"
+            },
+            "returnParameters": {
+              "id": 58,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 53,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "542:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 52,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "542:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 55,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "557:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_memory_ptr",
+                    "typeString": "string"
+                  },
+                  "typeName": {
+                    "id": 54,
+                    "name": "string",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "557:6:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_string_storage_ptr",
+                      "typeString": "string"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 57,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 74,
+                  "src": "572:4:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 56,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "572:4:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "541:36:0"
+            },
+            "scope": 75,
+            "src": "483:202:0",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 76,
+        "src": "36:652:0"
+      }
+    ],
+    "src": "0:688:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xcDe8bB24d67FBCBd66b5DD6ac013041120947f1E",
+      "transactionHash": "0x7e28bf1dc5740ff55ce46611694a9c7e8ddb4077849d32e010bdb6256a8ce861"
+    }
+  },
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-08-03T04:33:56.744Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
