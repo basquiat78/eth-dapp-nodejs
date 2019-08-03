@@ -139,6 +139,8 @@ PS C:\basquiat-blockchain\truffle>
 
 이제 앞서 dapp-step-3에서 했던 것들을 복기할 시간이다.    
 
+이전과는 다르게 네트워크를 ganache를 쓰기 때문에 밑에 처럼 --network ganache라는 명령어를 붙여서 가냐슈 네트워크를 쓰겠다고 명시한다.
+
 ```
 PS C:\basquiat-blockchain\truffle> truffle console --network ganache
 
