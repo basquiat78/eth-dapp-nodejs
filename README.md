@@ -323,3 +323,6 @@ web3.eth.sendTransaction({from:accounts[0], to:accounts[1], value:web3.utils.toW
 이렇게 스트링으로.....     
 
 오전을 다 날려먹음...;;;
+
+참고 사이트    
+https://web3js.readthedocs.io/en/v1.2.0/web3-utils.html?highlight=toWei#towei
