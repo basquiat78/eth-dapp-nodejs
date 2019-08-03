@@ -140,6 +140,8 @@ PS C:\basquiat-blockchain\truffle>
 이제 앞서 dapp-step-3에서 했던 것들을 복기할 시간이다.    
 
 ```
+PS C:\basquiat-blockchain\truffle> truffle console --network ganache
+
 truffle(ganache)> let accounts = await web3.eth.getAccounts()
 undefined
 truffle(ganache)> accounts
