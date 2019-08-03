@@ -276,3 +276,50 @@ truffle(ganache)>
 여기까지 하게 잘 따라왔다면 이제는 dapp를 본격적으로 시작해 볼 준비가 끝났다.    
 
 truffle폴더 역시 올린다. 이전 단계에서 변경된 것은 truffle-config.js의 내용정도 되겠다.     
+
+
+## At A Glance
+
+일단 truffle의 버저업으로 인해 web3j의 버전도 올라간 상태이다. 이전과는 좀 달라진 점이 있어서 기록으로 남긴다. 차후 삽질을 막기 위해서.
+
+
+이전에 truffle에서는 발란스를 가져올때
+```
+
+web3.eth.fromWei(balance, "ether")
+
+```
+
+이런 방식으로 가져왔었다. 하지만 현재 버전은 조금 다르다.    
+
+일단 다음과 같이 가져와야 한다. 그렇지 않으면 promise object로 뜨기 때문에 toWei, fromWei에서 타입으로 인해 에러가 난다. (이거때문에.....진짜...)
+
+```
+let balance = await web3.eth.getBalance(accounts[0])
+web3.utils.fromWei(balance, "ether")
+```
+처럼 호출해야 한다...
+
+toWei의 경우에도 좀 다르다..
+예전 방식은
+
+```
+web3.eth.sendTransaction({from:accounts[0], to:accounts[1], value:web3.toWei(10, "ether")})
+```
+
+하지만 위와 같이 날리면 toWei가 없다고 뜬다.
+
+```
+web3.eth.sendTransaction({from:accounts[0], to:accounts[1], value:web3.utils.toWei(10, "ether")})
+```
+
+이렇게 하면 에러가 난다. toWei에서 첫번째 파라미터는 스트링이어야 한다.     
+
+
+```
+web3.eth.sendTransaction({from:accounts[0], to:accounts[1], value:web3.utils.toWei("10", "ether")})
+```
+
+이렇게 스트링으로.....     
+
+오전을 다 날려먹음...;;;
