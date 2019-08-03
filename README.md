@@ -253,6 +253,18 @@ truffle(ganache)> web3.eth.getBalance(accounts[1])
 
 깍여 있는 것을 알 수 있다.    
 
+정보 불러오기    
+
+```
+truffle(ganache)> instance.getBassInfo(1)
+Result { '0': 'Fender', '1': 'Precision', '2': <BN: 4> }
+truffle(ganache)> instance.getBassInfo(2)
+Result { '0': 'Fodera', '1': 'Humbucker', '2': <BN: 5> }
+truffle(ganache)>
+```
+
+
+
 ## 장점    
 
 별다른 장점이 없어 보일 수 있지만 콘솔로 일일이 확인해봐야 하는 트랜잭션, 블록, 어카운트 정보들을 가나슈를 통해서 쉽게 확인할 수 있다는 것이다.    
