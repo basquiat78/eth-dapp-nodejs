@@ -16,6 +16,8 @@ ganache v2.1.0
 Solidity v0.5.0 (solc-js)    
 Node v10.16.1    
 Web3.js v^1.2.0    
+Vue Version 3.10.0    
+Python Version 2.7.16
  
 # Etheream Installation    
 이더리움을 이용한 스마트컨트랙트를 구현하기 위해서는 이더리움 게스를 설치해야한다.    
