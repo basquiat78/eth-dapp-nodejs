@@ -11,6 +11,10 @@
 os: window 10    
 ide: vscode version 1.36.1    
 git version 2.21.0    
+Truffle v5.0.30 (core: 5.0.30)
+Solidity v0.5.0 (solc-js)
+Node v10.16.1
+Web3.js v^1.2.0
 
 # Etheream Installation    
 이더리움을 이용한 스마트컨트랙트를 구현하기 위해서는 이더리움 게스를 설치해야한다.    
