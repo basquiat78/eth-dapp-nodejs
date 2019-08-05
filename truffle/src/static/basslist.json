@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "stringno": "5현",
+      "brand": "Fodera",
+      "picture": "../images/fodera_emperor.jpg",
+      "price": 55.0,
+      "seller": "0xfb7D1CFe1B4f5Ac51Ac1c1E9d0c5061132d08d0a"
+    },
+    {
+      "id": 2,
+      "stringno": "5현",
+      "brand": "Mayones",
+      "picture": "../images/mayones_jabba_custom.jpg",
+      "price": 20.5,
+      "seller": "0x5Ff774b4d03eE8558ccCe1492244396F4B582c97"
+    },
+    {
+      "id": 3,
+      "stringno": "5현",
+      "brand": "Spector",
+      "picture": "../images/spector_code.jpg",
+      "price": 25.55,
+      "seller": "0x0e1fE87715E88BBf48452ab197A853fF4fB05313"
+    },
+    {
+      "id": 4,
+      "stringno": "4현",
+      "brand": "John Suhr",
+      "picture": "../images/johnsuhr_classic.jpg",
+      "price": 28.04,
+      "seller": "0x1E965d3e2b0933b71183F0Eb8697F45e45369eAa"
+    }
+  ]
+  
