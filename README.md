@@ -206,8 +206,19 @@ https://metamask.io/
 
 
 # 진행 완료된 브랜치    
-[dapp-step-1](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-1), [dapp-step-2](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-2), [dapp-step-3](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-3), [dapp-step-4](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-4), [dapp-step-5](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-5), [dapp-step-6](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-6), [dapp-step-7](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-7)
+[dapp-step-1](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-1), [dapp-step-2](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-2), [dapp-step-3](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-3), [dapp-step-4](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-4), [dapp-step-5](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-5), [dapp-step-6](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-6), [dapp-step-7](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-7), [dapp-step-8](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-8)
 
 
-# 진행중인 브랜치
-dapp-step-8
+# At A Glance     
+
+심플하지만 이더리움을 이용한 dApp을 한번 구성해 보았다.     
+
+최종 소스는 마지막 브랜치인 [dapp-step-8](https://github.com/basquiat78/eth-dapp-nodejs/tree/dapp-step-8)을 참고하시면 되겠다.    
+
+front-end쪽은 vueJs나 또는 reactJs로 구성할 수도 있고 jQuery를 이용한 어떤 방식으로도 구현할 수 있다.     
+
+다만 이것을 왜 써야 하는지에 대한 의구심이 있을 수 있겠지만 전에도 언급했던 이야기지만 구매 이력에 대한 악의적인 변경이 불가능하다고 할 수 있다.     
+
+그 외에도 이전에 구현했던 것들중 옥션같은 것도 나름 괜찮다.    
+
+이 깃헙을 보는 많은 분들중 dApp을 하고자 하시는 분들에게 많은 도움이 되었으면 좋겠다.     
