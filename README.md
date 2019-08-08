@@ -287,3 +287,5 @@ userId는 10/basquiat78/010-000-0000
 ![실행이미지](https://github.com/basquiat78/eth-dapp-nodejs/blob/dapp-step-8/capture/shot17.PNG)     
 
 이미지를 보면 알겠지만 이더가 제대로 넘어가고 줄어든 것을 확인할 수 있다.
+
+완료된 truffle폴더도 함께 공유한다.    
