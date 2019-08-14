@@ -232,8 +232,14 @@ https://github.com/cmderdev/cmder/wiki/Seamless-VS-Code-Integration
 
 하지만 vscode의 경우에는 저 위에 IDE만큼이나 잘 만들어져 있고 MS가 만든것인만큼 막강한 기능들이 탑제되어 있다.    
 
-주로 node쪽 작업은 vscode를 주로 사용하는데 찾아 보니 vscode의 터미널. powershell을 cmder로 사용할 수 있는 방법이 있어서 한번 따라서 세팅을 해 봤다.
+node쪽 작업은 vscode를 주로 사용하는데 찾아 보니 vscode의 터미널. powershell을 cmder로 사용할 수 있는 방법이 있어서 한번 따라서 세팅을 해 봤다.
 
 사실 많이 쓸일은 없겠지만 현재 web3 1.2.0버전이 윈도우에서 npm으로 인스톨에 문제가 있으니 (향후 어떻게 변할지 모르겠지만) 당장은 따로 cmder를 띄울 수 있겠으나 만일 이더리움 dApp을 개발하는 입장에서는 아예 vscode의 파워쉘을 cmder로 쓸 수 있게 세팅하는 것도 나름 괜찮아 보여서 해봤다. 
 
 관심있으면 위 링크를 참조하면 좋을 듯 싶다. 
+
+그 외 몇가지 지원하는 IDE관련 세팅은 다음 밑에 링크를 참조하면 좋을 듯 싶다.
+
+https://github.com/cmderdev/cmder/wiki#cmder-integration
+
+다만 나의 경우 인텔리제이의 경우 어떤 이유인지 모르겠지만 js파일이나 html파일의 경우에는 느려지는 현상이 발생해서 (맥은 안그런거보네....) 쓰지 않는 편이지만...
